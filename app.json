@@ -28,7 +28,7 @@
     },
     "OWNER_ID": {
       "description": "who will use this bot",
-      "value": "",
+      "value": "8172163893",
       "required": false
     },
     "FR_TOKEN": {

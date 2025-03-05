@@ -289,7 +289,7 @@ async def default_download(url, cmd, name):
 #------------------Normal handler for the documents-------------------
 
 async def send_doc(bot: Client, m: Message,cc,ka,cc1,count,name):
-    reply = await m.reply_text(f"**Uploading ..🚀..** - `{name}`\n╰────⌈**ᡕᠵ᠊ᡃ່࡚ࠢ࠘ ⸝່ࠡࠣ᠊߯᠆ࠣ࠘ᡁࠣ࠘᠊᠊ࠢ࠘𐡏 —͟͞͞ ℝịcị𐌽**⌋────╯")
+    reply = await m.reply_text(f"**Uploading ..🚀..** - `{name}`\n╰────⌈**𝘴𝘴ᥴ ᭙ꪖꪶꪖ**⌋────╯")
     time.sleep(1)
     await m.reply_document(ka,caption=cc1)
     count+=1
@@ -300,7 +300,7 @@ async def send_doc(bot: Client, m: Message,cc,ka,cc1,count,name):
 
 #-----------------Send it to the log channel-----------------------
 async def send_doc(bot: Client, m: Message, cc, ka, cc1, count, name, log_channel_id):
-    reply = await m.reply_text(f"**Uploading ..🚀..** - `{name}`\n╰────⌈**ᡕᠵ᠊ᡃ່࡚ࠢ࠘ ⸝່ࠡࠣ᠊߯᠆ࠣ࠘ᡁࠣ࠘᠊᠊ࠢ࠘𐡏 —͟͞͞ ℝịcị𐌽**⌋────╯")
+    reply = await m.reply_text(f"**Uploading ..🚀..** - `{name}`\n╰────⌈**𝘴𝘴ᥴ ᭙ꪖꪶꪖ**⌋────╯")
     time.sleep(1)
     # Upload the document and capture the message
     message = await m.reply_document(ka, caption=cc1)
@@ -376,7 +376,7 @@ def split_video(filename, max_size):
 
 #-----------------------Emoji handler------------------------------------
 
-EMOJIS = ["🦁", "🐶", "🐼", "🐱", "👻", "🐻‍❄️", "☁️", "🚹", "🚺", "🐠", "🦋"]
+EMOJIS = ["🦁", "🐶", "🐼", "🐱", "👻", "🐻‍❄️", "☁️", "🌧️", "🦁", "🐠", "🦋"]
 emoji_counter = 0  # Initialize a global counter
 
 def get_next_emoji():
@@ -393,76 +393,76 @@ async def send_video_normal(bot: Client, m: Message, url, cc, filename, thumb, n
             f"**🚀 𝐔𝐏𝐋𝐎𝐀𝐃𝐈𝐍𝐆!** 🚀\n\n"
             f"**🎬 𝐍𝐚𝐦𝐞 » ** `{name}`\n\n"
             f"**⏳Processing Physics Wallah (PW) videos may take some time.**\n\n"
-            f"╰────⌈**✨ ᡕᠵ᠊ᡃ່࡚ࠢ࠘ ⸝່ࠡࠣ᠊߯᠆ࠣ࠘ᡁࠣ࠘᠊᠊ࠢ࠘𐡏 —͟͞͞ ℝịcị𐌽 ✨**⌋────╯"
+            f"╰────⌈**✨ 𝘴𝘴ᥴ ᭙ꪖꪶꪖ ✨**⌋────╯"
         )
     elif 'rgvikramjeet-data' in url and 'appx-transcoded' in url:
         reply = await m.reply_text(
             f"**🚀 𝐔𝐏𝐋𝐎𝐀𝐃𝐈𝐍𝐆!** 🚀\n\n"
             f"**🎬 𝐍𝐚𝐦𝐞 » ** `{name}`\n\n"
             f"**⏳Uploading RG Vikramjeet videos may take some time.**\n\n"
-            f"╰────⌈**✨ ᡕᠵ᠊ᡃ່࡚ࠢ࠘ ⸝່ࠡࠣ᠊߯᠆ࠣ࠘ᡁࠣ࠘᠊᠊ࠢ࠘𐡏 —͟͞͞ ℝịcị𐌽 ✨**⌋────╯"
+            f"╰────⌈**✨ 𝘴𝘴ᥴ ᭙ꪖꪶꪖ ✨**⌋────╯"
         )
     elif 'parmaracademy-data' in url and 'appx-transcoded' in url:
         reply = await m.reply_text(
             f"**🚀 𝐔𝐏𝐋𝐎𝐀𝐃𝐈𝐍𝐆!** 🚀\n\n"
             f"**🎬 𝐍𝐚𝐦𝐞 » ** `{name}`\n\n"
             f"**⏳Uploading Parmar Academy videos may take some time.**\n\n"
-            f"╰────⌈**✨ ᡕᠵ᠊ᡃ່࡚ࠢ࠘ ⸝່ࠡࠣ᠊߯᠆ࠣ࠘ᡁࠣ࠘᠊᠊ࠢ࠘𐡏 —͟͞͞ ℝịcị𐌽 ✨**⌋────╯"
+            f"╰────⌈**✨ 𝘴𝘴ᥴ ᭙ꪖꪶꪖ ✨**⌋────╯"
         )
     elif 'uclive-data' in url and 'appx-transcoded' in url:
         reply = await m.reply_text(
             f"**🚀 𝐔𝐏𝐋𝐎𝐀𝐃𝐈𝐍𝐆!** 🚀\n\n"
             f"**🎬 𝐍𝐚𝐦𝐞 » ** `{name}`\n\n"
             f"**⏳Uploading UC Live videos may take some time.**\n\n"
-            f"╰────⌈**✨ ᡕᠵ᠊ᡃ່࡚ࠢ࠘ ⸝່ࠡࠣ᠊߯᠆ࠣ࠘ᡁࠣ࠘᠊᠊ࠢ࠘𐡏 —͟͞͞ ℝịcị𐌽 ✨**⌋────╯"
+            f"╰────⌈**✨ 𝘴𝘴ᥴ ᭙ꪖꪶꪖ ✨**⌋────╯"
         )
     elif 'visionias' in url:
         reply = await m.reply_text(
             f"**🚀 𝐔𝐏𝐋𝐎𝐀𝐃𝐈𝐍𝐆!** 🚀\n\n"
             f"**🎬 𝐍𝐚𝐦𝐞 » ** `{name}`\n\n"
             f"**⏳Uploading Vision IAS videos may take some time.**\n\n"
-            f"╰────⌈**✨ ᡕᠵ᠊ᡃ່࡚ࠢ࠘ ⸝່ࠡࠣ᠊߯᠆ࠣ࠘ᡁࠣ࠘᠊᠊ࠢ࠘𐡏 —͟͞͞ ℝịcị𐌽 ✨**⌋────╯"
+            f"╰────⌈**✨ 𝘴𝘴ᥴ ᭙ꪖꪶꪖ ✨**⌋────╯"
         )
     elif 'brightcove' in url:
         reply = await m.reply_text(
             f"**🚀 𝐔𝐏𝐋𝐎𝐀𝐃𝐈𝐍𝐆!** 🚀\n\n"
             f"**🎬 𝐍𝐚𝐦𝐞 » ** `{name}`\n\n"
             f"**⏳Uploading Careerwill (CW) videos may take some time.**\n\n"
-            f"╰────⌈**✨ ᡕᠵ᠊ᡃ່࡚ࠢ࠘ ⸝່ࠡࠣ᠊߯᠆ࠣ࠘ᡁࠣ࠘᠊᠊ࠢ࠘𐡏 —͟͞͞ ℝịcị𐌽 ✨**⌋────╯"
+            f"╰────⌈**✨ 𝘴𝘴ᥴ ᭙ꪖꪶꪖ ✨**⌋────╯"
         )
     elif 'utkarshapp' in url:
         reply = await m.reply_text(
             f"**🚀 𝐔𝐏𝐋𝐎𝐀𝐃𝐈𝐍𝐆!** 🚀\n\n"
             f"**🎬 𝐍𝐚𝐦𝐞 » ** `{name}`\n\n"
             f"**⏳Uploading Utkarsh videos may take some time.**\n\n"
-            f"╰────⌈**✨ ᡕᠵ᠊ᡃ່࡚ࠢ࠘ ⸝່ࠡࠣ᠊߯᠆ࠣ࠘ᡁࠣ࠘᠊᠊ࠢ࠘𐡏 —͟͞͞ ℝịcị𐌽 ✨**⌋────╯"
+            f"╰────⌈**✨ 𝘴𝘴ᥴ ᭙ꪖꪶꪖ ✨**⌋────╯"
         )
     elif 'studyiq' in url:
         reply = await m.reply_text(
             f"**🚀 𝐔𝐏𝐋𝐎𝐀𝐃𝐈𝐍𝐆!** 🚀\n\n"
             f"**🎬 𝐍𝐚𝐦𝐞 » ** `{name}`\n\n"
             f"**⏳Uploading StudyIQ videos may take some time.**\n\n"
-            f"╰────⌈**✨ ᡕᠵ᠊ᡃ່࡚ࠢ࠘ ⸝່ࠡࠣ᠊߯᠆ࠣ࠘ᡁࠣ࠘᠊᠊ࠢ࠘𐡏 —͟͞͞ ℝịcị𐌽 ✨**⌋────╯"
+            f"╰────⌈**✨ 𝘴𝘴ᥴ ᭙ꪖꪶꪖ ✨**⌋────╯"
         )
     elif 'kgs-v2.akamaized.net' in url:
         reply = await m.reply_text(
             f"**🚀 𝐔𝐏𝐋𝐎𝐀𝐃𝐈𝐍𝐆!** 🚀\n\n"
             f"**🎬 𝐍𝐚𝐦𝐞 » ** `{name}`\n\n"
             f"**⏳Uploading Khan Sir videos may take some time.**\n\n"
-            f"╰────⌈**✨ ᡕᠵ᠊ᡃ່࡚ࠢ࠘ ⸝່ࠡࠣ᠊߯᠆ࠣ࠘ᡁࠣ࠘᠊᠊ࠢ࠘𐡏 —͟͞͞ ℝịcị𐌽 ✨**⌋────╯"
+            f"╰────⌈**✨ 𝘴𝘴ᥴ ᭙ꪖꪶꪖ ✨**⌋────╯"
         )
     elif 'videos.classplusapp.com' in url:
         reply = await m.reply_text(
             f"**🚀 𝐔𝐏𝐋𝐎𝐀𝐃𝐈𝐍𝐆!** 🚀\n\n"
             f"**🎬 𝐍𝐚𝐦𝐞 » ** `{name}`\n\n"
             f"**⏳Uploading ClassPlus videos may take some time.**\n\n"
-            f"╰────⌈**✨ ᡕᠵ᠊ᡃ່࡚ࠢ࠘ ⸝່ࠡࠣ᠊߯᠆ࠣ࠘ᡁࠣ࠘᠊᠊ࠢ࠘𐡏 —͟͞͞ ℝịcị𐌽 ✨**⌋────╯"
+            f"╰────⌈**✨ 𝘴𝘴ᥴ ᭙ꪖꪶꪖ ✨**⌋────╯"
         )
     else:
         reply = await m.reply_text(
             f"**🚀 𝐔𝐏𝐋𝐎𝐀𝐃𝐈𝐍𝐆!** 🚀\n\n"
             f"**🎬 𝐍𝐚𝐦𝐞 » ** `{name}`\n\n"
-            f"╰────⌈**✨ ᡕᠵ᠊ᡃ່࡚ࠢ࠘ ⸝່ࠡࠣ᠊߯᠆ࠣ࠘ᡁࠣ࠘᠊᠊ࠢ࠘𐡏 —͟͞͞ ℝịcị𐌽 ✨**⌋────╯"
+            f"╰────⌈**✨ 𝘴𝘴ᥴ ᭙ꪖꪶꪖ ✨**⌋────╯"
         )  
     try:
         if thumb == "no":
@@ -525,41 +525,41 @@ async def send_vid(bot: Client, m: Message, url, cc, filename, thumb, name, log_
             f"**🚀 𝐔𝐏𝐋𝐎𝐀𝐃𝐈𝐍𝐆!** 🚀\n\n"
             f"**🎬 Name » ** `{name}`\n"
             f"**⏳Processing Physics Wallah (PW) videos may take some time.**\n\n"
-            f"╰────⌈**✨ ᡕᠵ᠊ᡃ່࡚ࠢ࠘ ⸝່ࠡࠣ᠊߯᠆ࠣ࠘ᡁࠣ࠘᠊᠊ࠢ࠘𐡏 —͟͞͞ ℝịcị𐌽 ✨**⌋────╯"
+            f"╰────⌈**✨ 𝘴𝘴ᥴ ᭙ꪖꪶꪖ ✨**⌋────╯"
         )
     elif 'visionias' in url:
         reply = await m.reply_text(
             f"**🚀 𝐔𝐏𝐋𝐎𝐀𝐃𝐈𝐍𝐆!** 🚀\n\n"
             f"**🎬 Name » ** `{name}`\n"
             f"**⏳Uploading Vision IAS videos may take some time.**\n\n"
-            f"╰────⌈**✨ ᡕᠵ᠊ᡃ່࡚ࠢ࠘ ⸝່ࠡࠣ᠊߯᠆ࠣ࠘ᡁࠣ࠘᠊᠊ࠢ࠘𐡏 —͟͞͞ ℝịcị𐌽 ✨**⌋────╯"
+            f"╰────⌈**✨ 𝘴𝘴ᥴ ᭙ꪖꪶꪖ ✨**⌋────╯"
         )
     elif 'brightcove' in url:
         reply = await m.reply_text(
             f"**🚀 𝐔𝐏𝐋𝐎𝐀𝐃𝐈𝐍𝐆!** 🚀\n\n"
             f"**🎬 Name » ** `{name}`\n"
             f"**⏳Uploading Careerwill (CW) videos may take some time.**\n\n"
-            f"╰────⌈**✨ ᡕᠵ᠊ᡃ່࡚ࠢ࠘ ⸝່ࠡࠣ᠊߯᠆ࠣ࠘ᡁࠣ࠘᠊᠊ࠢ࠘𐡏 —͟͞͞ ℝịcị𐌽 ✨**⌋────╯"
+            f"╰────⌈**✨ 𝘴𝘴ᥴ ᭙ꪖꪶꪖ ✨**⌋────╯"
         )
     elif 'utkarshapp' in url:
         reply = await m.reply_text(
             f"**🚀 𝐔𝐏𝐋𝐎𝐀𝐃𝐈𝐍𝐆!** 🚀\n\n"
             f"**🎬 Name » ** `{name}`\n"
             f"**⏳Uploading Utkarsh videos may take some time.**\n\n"
-            f"╰────⌈**✨ ᡕᠵ᠊ᡃ່࡚ࠢ࠘ ⸝່ࠡࠣ᠊߯᠆ࠣ࠘ᡁࠣ࠘᠊᠊ࠢ࠘𐡏 —͟͞͞ ℝịcị𐌽 ✨**⌋────╯"
+            f"╰────⌈**✨ 𝘴𝘴ᥴ ᭙ꪖꪶꪖ ✨**⌋────╯"
         )
     elif 'studyiq' in url:
         reply = await m.reply_text(
             f"**🚀 𝐔𝐏𝐋𝐎𝐀𝐃𝐈𝐍𝐆!** 🚀\n\n"
             f"**🎬 Name » ** `{name}`\n"
             f"**⏳Uploading StudyIQ videos may take some time.**\n\n"
-            f"╰────⌈**✨ ᡕᠵ᠊ᡃ່࡚ࠢ࠘ ⸝່ࠡࠣ᠊߯᠆ࠣ࠘ᡁࠣ࠘᠊᠊ࠢ࠘𐡏 —͟͞͞ ℝịcị𐌽 ✨**⌋────╯"
+            f"╰────⌈**✨ 𝘴𝘴ᥴ ᭙ꪖꪶꪖ ✨**⌋────╯"
         )
     else:
         reply = await m.reply_text(
             f"**🚀 𝐔𝐏𝐋𝐎𝐀𝐃𝐈𝐍𝐆!** 🚀\n\n"
             f"**🎬 Name » ** `{name}`\n"
-            f"╰────⌈**✨ ᡕᠵ᠊ᡃ່࡚ࠢ࠘ ⸝່ࠡࠣ᠊߯᠆ࠣ࠘ᡁࠣ࠘᠊᠊ࠢ࠘𐡏 —͟͞͞ ℝịcị𐌽 ✨**⌋────╯"
+            f"╰────⌈**✨ 𝘴𝘴ᥴ ᭙ꪖꪶꪖ ✨**⌋────╯"
         )    
     try:
         if thumb == "no":
@@ -632,41 +632,41 @@ async def send_video_watermark(bot: Client, m: Message, url, cc, filename, thumb
             f"**🚀 𝐔𝐏𝐋𝐎𝐀𝐃𝐈𝐍𝐆!** 🚀\n\n"
             f"**🎬 Name » ** `{name}`\n"
             f"**Processing Physics Wallah (PW) videos may take some time.**\n\n"
-            f"╰────⌈**✨ 𝐊𝐔𝐍𝐀𝐋 (@ikunalx) ✨**⌋────╯"
+            f"╰────⌈**✨ 𝘴𝘴ᥴ ᭙ꪖꪶꪖ ✨**⌋────╯"
         )
     elif 'visionias' in url:
         reply = await m.reply_text(
             f"**🚀 𝐔𝐏𝐋𝐎𝐀𝐃𝐈𝐍𝐆!** 🚀\n\n"
             f"**🎬 Name » ** `{name}`\n"
             f"**Uploading Vision IAS videos may take some time.**\n\n"
-            f"╰────⌈**✨ 𝐊𝐔𝐍𝐀𝐋 (@ikunalx) ✨**⌋────╯"
+            f"╰────⌈**✨ 𝘴𝘴ᥴ ᭙ꪖꪶꪖ ✨**⌋────╯"
         )
     elif 'brightcove' in url:
         reply = await m.reply_text(
             f"**🚀 𝐔𝐏𝐋𝐎𝐀𝐃𝐈𝐍𝐆!** 🚀\n\n"
             f"**🎬 Name » ** `{name}`\n"
             f"**Uploading Careerwill (CW) videos may take some time.**\n\n"
-            f"╰────⌈**✨ 𝐊𝐔𝐍𝐀𝐋 (@ikunalx) ✨**⌋────╯"
+            f"╰────⌈**✨ 𝘴𝘴ᥴ ᭙ꪖꪶꪖ ✨**⌋────╯"
         )
     elif 'utkarshapp' in url:
         reply = await m.reply_text(
             f"**🚀 𝐔𝐏𝐋𝐎𝐀𝐃𝐈𝐍𝐆!** 🚀\n\n"
             f"**🎬 Name » ** `{name}`\n"
             f"**Uploading Utkarsh videos may take some time.**\n\n"
-            f"╰────⌈**✨ 𝐊𝐔𝐍𝐀𝐋 (@ikunalx) ✨**⌋────╯"
+            f"╰────⌈**✨ 𝘴𝘴ᥴ ᭙ꪖꪶꪖ ✨**⌋────╯"
         )
     elif 'studyiq' in url:
         reply = await m.reply_text(
             f"**🚀 𝐔𝐏𝐋𝐎𝐀𝐃𝐈𝐍𝐆!** 🚀\n\n"
             f"**🎬 Name » ** `{name}`\n"
             f"**Uploading StudyIQ videos may take some time.**\n\n"
-            f"╰────⌈**✨ 𝐊𝐔𝐍𝐀𝐋 (@ikunalx) ✨**⌋────╯"
+            f"╰────⌈**✨ 𝘴𝘴ᥴ ᭙ꪖꪶꪖ ✨**⌋────╯"
         )
     else:
         reply = await m.reply_text(
             f"**🚀 𝐔𝐏𝐋𝐎𝐀𝐃𝐈𝐍𝐆!** 🚀\n\n"
             f"**🎬 Name » ** `{name}`\n"
-            f"╰────⌈**✨ 𝐊𝐔𝐍𝐀𝐋 (@ikunalx) ✨**⌋────╯"
+            f"╰────⌈**✨ 𝘴𝘴ᥴ ᭙ꪖꪶꪖ ✨**⌋────╯"
         )    
     try:
         if thumb == "no":
